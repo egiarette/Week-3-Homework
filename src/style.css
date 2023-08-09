@@ -102,4 +102,20 @@ p {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 64px !important;
+  }
+
+  .hp-img {
+    width: 50%;
+    margin: 50px;
+  }
+
+  .left-col {
+    order: 2;
+  }
+
+  .right-col {
+    order: 1;
+  }
 }
